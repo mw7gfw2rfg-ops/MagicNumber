@@ -32,6 +32,28 @@ def compareHeader(signatures, header):
     
     return {'extension': "Unknown", 'header': "Unknown", 'description': "unknown"}
 
+def collectFiles(args):
+    if args.dir:
+        files = []
+        for root, dirs, filenames in os.walk(dir, topdown=False):
+            for name in filenames:
+                files.append(os.path.join(root, name))
+        return files
+    elif args.file:
+        return args.file
+    else:
+        return None
+    
+def printResult(f, data, args):
+    if args.verbose:
+        header = readFileHeader(f)
+        print(f'Header: {header[:47]}')
+    elif args.json:
+        print(json.dumps(data, 2))
+    else:
+        print('-=-=-=-=-=-=-=-=')
+        print(f'File {f} - {data['extension']}, {data['description']}')
+
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(
@@ -46,26 +68,14 @@ if __name__ == '__main__':
     file = args.file
 
     signatures = loadSignatures('FileSig.json')
-    filesToScan = []
 
-    if args.dir:
-        for root, dirs, files in os.walk(dir, topdown=False):
-            for name in files:
-                filesToScan.append(os.path.join(root, name))
-    elif args.file:
-        filesToScan = file
-    else:
+    filesToScan = collectFiles(args)
+
+    if not filesToScan:
         parser.error("Please provide either --file or --dir")
 
-
+    
+        
     for f in filesToScan:
-        header = readFileHeader(f)
-        data = compareHeader(signatures, header)
-        if args.verbose:
-            print(f'Header: {header[:47]}')
-        if args.json:
-            print(json.dumps(data, indent=2))
-        else:
-            print(f'File: {f} - {data['extension']}, {data['description']}')
-        if not args.json:
-            print('-=-=-=-=-=-=')
+        data = compareHeader(signatures, readFileHeader(f))
+        printResult(f, data, args)
