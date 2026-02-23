@@ -1,0 +1,592 @@
+{
+  "signatures": [
+    {
+      "extension": "png",
+      "mime_type": "image/png",
+      "offset": 0,
+      "header": "89 50 4E 47 0D 0A 1A 0A",
+      "description": "PNG image"
+    },
+    {
+      "extension": "jpg",
+      "mime_type": "image/jpeg",
+      "offset": 0,
+      "header": "FF D8 FF E0",
+      "description": "JPEG image (JFIF)"
+    },
+    {
+      "extension": "jpg",
+      "mime_type": "image/jpeg",
+      "offset": 0,
+      "header": "FF D8 FF E1",
+      "description": "JPEG image (Exif)"
+    },
+    {
+      "extension": "jpg",
+      "mime_type": "image/jpeg",
+      "offset": 0,
+      "header": "FF D8 FF E8",
+      "description": "JPEG image (SPIFF)"
+    },
+    {
+      "extension": "jpg",
+      "mime_type": "image/jpeg",
+      "offset": 0,
+      "header": "FF D8 FF DB",
+      "description": "JPEG image"
+    },
+    {
+      "extension": "gif",
+      "mime_type": "image/gif",
+      "offset": 0,
+      "header": "47 49 46 38 37 61",
+      "description": "GIF image (87a)"
+    },
+    {
+      "extension": "gif",
+      "mime_type": "image/gif",
+      "offset": 0,
+      "header": "47 49 46 38 39 61",
+      "description": "GIF image (89a)"
+    },
+    {
+      "extension": "bmp",
+      "mime_type": "image/bmp",
+      "offset": 0,
+      "header": "42 4D",
+      "description": "Windows Bitmap"
+    },
+    {
+      "extension": "tif",
+      "mime_type": "image/tiff",
+      "offset": 0,
+      "header": "49 49 2A 00",
+      "description": "TIFF image (little-endian)"
+    },
+    {
+      "extension": "tif",
+      "mime_type": "image/tiff",
+      "offset": 0,
+      "header": "4D 4D 00 2A",
+      "description": "TIFF image (big-endian)"
+    },
+    {
+      "extension": "webp",
+      "mime_type": "image/webp",
+      "offset": 8,
+      "header": "57 45 42 50",
+      "description": "WebP image"
+    },
+    {
+      "extension": "ico",
+      "mime_type": "image/x-icon",
+      "offset": 0,
+      "header": "00 00 01 00",
+      "description": "Windows icon"
+    },
+    {
+      "extension": "cur",
+      "mime_type": "image/x-icon",
+      "offset": 0,
+      "header": "00 00 02 00",
+      "description": "Windows cursor"
+    },
+    {
+      "extension": "psd",
+      "mime_type": "image/vnd.adobe.photoshop",
+      "offset": 0,
+      "header": "38 42 50 53",
+      "description": "Adobe Photoshop document"
+    },
+    {
+      "extension": "pdf",
+      "mime_type": "application/pdf",
+      "offset": 0,
+      "header": "25 50 44 46",
+      "description": "PDF document"
+    },
+    {
+      "extension": "zip",
+      "mime_type": "application/zip",
+      "offset": 0,
+      "header": "50 4B 03 04",
+      "description": "ZIP archive"
+    },
+    {
+      "extension": "zip",
+      "mime_type": "application/zip",
+      "offset": 0,
+      "header": "50 4B 05 06",
+      "description": "ZIP archive (empty)"
+    },
+    {
+      "extension": "zip",
+      "mime_type": "application/zip",
+      "offset": 0,
+      "header": "50 4B 07 08",
+      "description": "ZIP archive (spanned)"
+    },
+    {
+      "extension": "docx",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "offset": 0,
+      "header": "50 4B 03 04",
+      "description": "Microsoft Word document (Office Open XML)"
+    },
+    {
+      "extension": "xlsx",
+      "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "offset": 0,
+      "header": "50 4B 03 04",
+      "description": "Microsoft Excel document (Office Open XML)"
+    },
+    {
+      "extension": "pptx",
+      "mime_type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "offset": 0,
+      "header": "50 4B 03 04",
+      "description": "Microsoft PowerPoint document (Office Open XML)"
+    },
+    {
+      "extension": "jar",
+      "mime_type": "application/java-archive",
+      "offset": 0,
+      "header": "50 4B 03 04",
+      "description": "Java Archive"
+    },
+    {
+      "extension": "apk",
+      "mime_type": "application/vnd.android.package-archive",
+      "offset": 0,
+      "header": "50 4B 03 04",
+      "description": "Android package"
+    },
+    {
+      "extension": "rar",
+      "mime_type": "application/x-rar-compressed",
+      "offset": 0,
+      "header": "52 61 72 21 1A 07 00",
+      "description": "RAR archive (v1.5+)"
+    },
+    {
+      "extension": "rar",
+      "mime_type": "application/x-rar-compressed",
+      "offset": 0,
+      "header": "52 61 72 21 1A 07 01 00",
+      "description": "RAR archive (v5.0+)"
+    },
+    {
+      "extension": "7z",
+      "mime_type": "application/x-7z-compressed",
+      "offset": 0,
+      "header": "37 7A BC AF 27 1C",
+      "description": "7-Zip archive"
+    },
+    {
+      "extension": "gz",
+      "mime_type": "application/gzip",
+      "offset": 0,
+      "header": "1F 8B",
+      "description": "GZIP compressed file"
+    },
+    {
+      "extension": "tar",
+      "mime_type": "application/x-tar",
+      "offset": 257,
+      "header": "75 73 74 61 72",
+      "description": "TAR archive"
+    },
+    {
+      "extension": "bz2",
+      "mime_type": "application/x-bzip2",
+      "offset": 0,
+      "header": "42 5A 68",
+      "description": "BZIP2 compressed file"
+    },
+    {
+      "extension": "xz",
+      "mime_type": "application/x-xz",
+      "offset": 0,
+      "header": "FD 37 7A 58 5A 00",
+      "description": "XZ compressed file"
+    },
+    {
+      "extension": "exe",
+      "mime_type": "application/x-msdownload",
+      "offset": 0,
+      "header": "4D 5A",
+      "description": "Windows executable (DOS/PE)"
+    },
+    {
+      "extension": "dll",
+      "mime_type": "application/x-msdownload",
+      "offset": 0,
+      "header": "4D 5A",
+      "description": "Windows DLL"
+    },
+    {
+      "extension": "elf",
+      "mime_type": "application/x-executable",
+      "offset": 0,
+      "header": "7F 45 4C 46",
+      "description": "Linux/Unix executable (ELF)"
+    },
+    {
+      "extension": "mach-o",
+      "mime_type": "application/x-mach-binary",
+      "offset": 0,
+      "header": "FE ED FA CE",
+      "description": "Mach-O binary (32-bit)"
+    },
+    {
+      "extension": "mach-o",
+      "mime_type": "application/x-mach-binary",
+      "offset": 0,
+      "header": "FE ED FA CF",
+      "description": "Mach-O binary (64-bit)"
+    },
+    {
+      "extension": "mach-o",
+      "mime_type": "application/x-mach-binary",
+      "offset": 0,
+      "header": "CE FA ED FE",
+      "description": "Mach-O binary (reverse byte order, 32-bit)"
+    },
+    {
+      "extension": "mach-o",
+      "mime_type": "application/x-mach-binary",
+      "offset": 0,
+      "header": "CF FA ED FE",
+      "description": "Mach-O binary (reverse byte order, 64-bit)"
+    },
+    {
+      "extension": "class",
+      "mime_type": "application/java-vm",
+      "offset": 0,
+      "header": "CA FE BA BE",
+      "description": "Java class file"
+    },
+    {
+      "extension": "dex",
+      "mime_type": "application/x-dex",
+      "offset": 0,
+      "header": "64 65 78 0A 30 33 35 00",
+      "description": "Dalvik executable"
+    },
+    {
+      "extension": "mp3",
+      "mime_type": "audio/mpeg",
+      "offset": 0,
+      "header": "49 44 33",
+      "description": "MP3 audio (ID3v2)"
+    },
+    {
+      "extension": "mp3",
+      "mime_type": "audio/mpeg",
+      "offset": 0,
+      "header": "FF FB",
+      "description": "MP3 audio (MPEG-1 Layer 3)"
+    },
+    {
+      "extension": "mp3",
+      "mime_type": "audio/mpeg",
+      "offset": 0,
+      "header": "FF F3",
+      "description": "MP3 audio (MPEG-1 Layer 3)"
+    },
+    {
+      "extension": "mp3",
+      "mime_type": "audio/mpeg",
+      "offset": 0,
+      "header": "FF F2",
+      "description": "MP3 audio (MPEG-2 Layer 3)"
+    },
+    {
+      "extension": "wav",
+      "mime_type": "audio/wav",
+      "offset": 0,
+      "header": "52 49 46 46",
+      "description": "WAV audio (RIFF header, check for WAVE at offset 8)"
+    },
+    {
+      "extension": "flac",
+      "mime_type": "audio/flac",
+      "offset": 0,
+      "header": "66 4C 61 43",
+      "description": "FLAC audio"
+    },
+    {
+      "extension": "ogg",
+      "mime_type": "audio/ogg",
+      "offset": 0,
+      "header": "4F 67 67 53",
+      "description": "OGG media file"
+    },
+    {
+      "extension": "m4a",
+      "mime_type": "audio/mp4",
+      "offset": 4,
+      "header": "66 74 79 70 4D 34 41",
+      "description": "Apple lossless audio"
+    },
+    {
+      "extension": "aac",
+      "mime_type": "audio/aac",
+      "offset": 0,
+      "header": "FF F1",
+      "description": "AAC audio (ADTS)"
+    },
+    {
+      "extension": "aac",
+      "mime_type": "audio/aac",
+      "offset": 0,
+      "header": "FF F9",
+      "description": "AAC audio (ADTS)"
+    },
+    {
+      "extension": "mid",
+      "mime_type": "audio/midi",
+      "offset": 0,
+      "header": "4D 54 68 64",
+      "description": "MIDI audio"
+    },
+    {
+      "extension": "mp4",
+      "mime_type": "video/mp4",
+      "offset": 4,
+      "header": "66 74 79 70",
+      "description": "MP4 video"
+    },
+    {
+      "extension": "avi",
+      "mime_type": "video/x-msvideo",
+      "offset": 0,
+      "header": "52 49 46 46",
+      "description": "AVI video (RIFF header, check for AVI at offset 8)"
+    },
+    {
+      "extension": "mkv",
+      "mime_type": "video/x-matroska",
+      "offset": 0,
+      "header": "1A 45 DF A3",
+      "description": "Matroska video"
+    },
+    {
+      "extension": "webm",
+      "mime_type": "video/webm",
+      "offset": 0,
+      "header": "1A 45 DF A3",
+      "description": "WebM video"
+    },
+    {
+      "extension": "mov",
+      "mime_type": "video/quicktime",
+      "offset": 4,
+      "header": "66 74 79 70 71 74",
+      "description": "QuickTime video"
+    },
+    {
+      "extension": "flv",
+      "mime_type": "video/x-flv",
+      "offset": 0,
+      "header": "46 4C 56 01",
+      "description": "Flash video"
+    },
+    {
+      "extension": "wmv",
+      "mime_type": "video/x-ms-wmv",
+      "offset": 0,
+      "header": "30 26 B2 75 8E 66 CF 11",
+      "description": "Windows Media Video"
+    },
+    {
+      "extension": "mpg",
+      "mime_type": "video/mpeg",
+      "offset": 0,
+      "header": "00 00 01 BA",
+      "description": "MPEG video"
+    },
+    {
+      "extension": "mpg",
+      "mime_type": "video/mpeg",
+      "offset": 0,
+      "header": "00 00 01 B3",
+      "description": "MPEG video"
+    },
+    {
+      "extension": "xml",
+      "mime_type": "application/xml",
+      "offset": 0,
+      "header": "3C 3F 78 6D 6C",
+      "description": "XML document"
+    },
+    {
+      "extension": "html",
+      "mime_type": "text/html",
+      "offset": 0,
+      "header": "3C 21 44 4F 43 54 59 50 45 20 68 74 6D 6C",
+      "description": "HTML document"
+    },
+    {
+      "extension": "html",
+      "mime_type": "text/html",
+      "offset": 0,
+      "header": "3C 68 74 6D 6C",
+      "description": "HTML document"
+    },
+    {
+      "extension": "db",
+      "mime_type": "application/x-sqlite3",
+      "offset": 0,
+      "header": "53 51 4C 69 74 65 20 66 6F 72 6D 61 74 20 33 00",
+      "description": "SQLite database"
+    },
+    {
+      "extension": "iso",
+      "mime_type": "application/x-iso9660-image",
+      "offset": 32769,
+      "header": "43 44 30 30 31",
+      "description": "ISO 9660 CD/DVD image"
+    },
+    {
+      "extension": "dmg",
+      "mime_type": "application/x-apple-diskimage",
+      "offset": 0,
+      "header": "78 01 73 0D 62 62 60",
+      "description": "Apple Disk Image"
+    },
+    {
+      "extension": "vmdk",
+      "mime_type": "application/x-vmdk",
+      "offset": 0,
+      "header": "4B 44 4D",
+      "description": "VMware virtual disk"
+    },
+    {
+      "extension": "vdi",
+      "mime_type": "application/x-virtualbox-vdi",
+      "offset": 0,
+      "header": "3C 3C 3C 20 4F 72 61 63 6C 65 20 56 4D 20 56 69 72 74 75 61 6C 42 6F 78 20 44 69 73 6B 20 49 6D 61 67 65 20 3E 3E 3E",
+      "description": "VirtualBox virtual disk"
+    },
+    {
+      "extension": "ttf",
+      "mime_type": "font/ttf",
+      "offset": 0,
+      "header": "00 01 00 00",
+      "description": "TrueType font"
+    },
+    {
+      "extension": "otf",
+      "mime_type": "font/otf",
+      "offset": 0,
+      "header": "4F 54 54 4F",
+      "description": "OpenType font"
+    },
+    {
+      "extension": "woff",
+      "mime_type": "font/woff",
+      "offset": 0,
+      "header": "77 4F 46 46",
+      "description": "Web Open Font Format"
+    },
+    {
+      "extension": "woff2",
+      "mime_type": "font/woff2",
+      "offset": 0,
+      "header": "77 4F 46 32",
+      "description": "Web Open Font Format 2"
+    },
+    {
+      "extension": "rtf",
+      "mime_type": "application/rtf",
+      "offset": 0,
+      "header": "7B 5C 72 74 66 31",
+      "description": "Rich Text Format"
+    },
+    {
+      "extension": "doc",
+      "mime_type": "application/msword",
+      "offset": 0,
+      "header": "D0 CF 11 E0 A1 B1 1A E1",
+      "description": "Microsoft Word document (97-2003)"
+    },
+    {
+      "extension": "xls",
+      "mime_type": "application/vnd.ms-excel",
+      "offset": 0,
+      "header": "D0 CF 11 E0 A1 B1 1A E1",
+      "description": "Microsoft Excel document (97-2003)"
+    },
+    {
+      "extension": "ppt",
+      "mime_type": "application/vnd.ms-powerpoint",
+      "offset": 0,
+      "header": "D0 CF 11 E0 A1 B1 1A E1",
+      "description": "Microsoft PowerPoint document (97-2003)"
+    },
+    {
+      "extension": "msg",
+      "mime_type": "application/vnd.ms-outlook",
+      "offset": 0,
+      "header": "D0 CF 11 E0 A1 B1 1A E1",
+      "description": "Microsoft Outlook message"
+    },
+    {
+      "extension": "cab",
+      "mime_type": "application/vnd.ms-cab-compressed",
+      "offset": 0,
+      "header": "4D 53 43 46",
+      "description": "Microsoft Cabinet archive"
+    },
+    {
+      "extension": "ps",
+      "mime_type": "application/postscript",
+      "offset": 0,
+      "header": "25 21 50 53",
+      "description": "PostScript document"
+    },
+    {
+      "extension": "eps",
+      "mime_type": "application/postscript",
+      "offset": 0,
+      "header": "25 21 50 53 2D 41 64 6F 62 65",
+      "description": "Encapsulated PostScript"
+    },
+    {
+      "extension": "swf",
+      "mime_type": "application/x-shockwave-flash",
+      "offset": 0,
+      "header": "46 57 53",
+      "description": "Flash SWF (uncompressed)"
+    },
+    {
+      "extension": "swf",
+      "mime_type": "application/x-shockwave-flash",
+      "offset": 0,
+      "header": "43 57 53",
+      "description": "Flash SWF (compressed)"
+    },
+    {
+      "extension": "crx",
+      "mime_type": "application/x-chrome-extension",
+      "offset": 0,
+      "header": "43 72 32 34",
+      "description": "Chrome extension"
+    },
+    {
+      "extension": "torrent",
+      "mime_type": "application/x-bittorrent",
+      "offset": 0,
+      "header": "64 38 3A 61 6E 6E 6F 75 6E 63 65",
+      "description": "BitTorrent file"
+    },
+    {
+      "extension": "wasm",
+      "mime_type": "application/wasm",
+      "offset": 0,
+      "header": "00 61 73 6D",
+      "description": "WebAssembly binary"
+    }
+  ]
+}
